@@ -216,34 +216,18 @@ button {  width: auto; overflow: visible; }
 .clearfix { zoom: 1; }
 
 
-
-
-
-
  /* Primary Styles
-    Author: 
+    Author: Max
  */
 
 html, body { height: 100%; min-height: 750px; }
 
-body {
-    
-    margin: 0px; 
-    background: rgba(20, 20, 20, 1);
-
-    }
-    
-#display { 
-    
-    position: fixed;
-    background: transparent; 
-    top: 0px;
-
-    }
+#display {
+    border: 1px solid black;
+}
 
 #container {
     min-height: 100%;
     height: auto !important;
     height: 100%;
-
-    }
+}
